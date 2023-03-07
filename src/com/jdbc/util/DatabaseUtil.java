@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DatabaseUtil {
 	
 	private static final String DRIVER_PATH = "com.mysql.cj.jdbc.Driver";
-	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/jdbcdb";
-	private  static final String USERNAME = "root";
-	private static final String PASSWORD = "";
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/[database_name]";
+	private  static final String USERNAME = "username";
+	private static final String PASSWORD = "password";
 	
 	public DatabaseUtil() {
 		try {
