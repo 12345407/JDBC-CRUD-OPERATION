@@ -1,0 +1,8 @@
+CREATE DATABASE jdbcdb;
+ CREATE TABLE employee(
+ 	employee_id int NOT null AUTO_INCREMENT,
+ 	employee_name varchar(25) NOT null,
+ 	employee_address varchar(25) NOT null,
+ 	employee_salary int NOT null,
+ 	PRIMARY KEY(employee_id)
+ 	);
